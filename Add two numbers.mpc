@@ -1,0 +1,49 @@
+100F
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LXI H 8000h
+\par MVI C 00h
+\par MOV A M
+\par INX H
+\par ADD M
+\par JNC JUMP
+\par INR C
+\par JUMP: STA 9000h
+\par MOV A C
+\par STA 9001h
+\par HLT
+\par 
+\par }
+<End Codes>
+20
+1| 8000| FF
+2| 8001| 01
+3| 9000| 00
+4| 9001| 01
+5| 0000| 00
+<End UserData>
+53
+1| 100F| 21
+2| 1010| 00
+3| 1011| 80
+4| 1012| 0E
+5| 1013| 00
+6| 1014| 7E
+7| 1015| 23
+8| 1016| 86
+9| 1017| D2
+10| 1018| 1B
+11| 1019| 10
+12| 101A| 0C
+13| 101B| 32
+14| 101C| 00
+15| 101D| 90
+16| 101E| 79
+17| 101F| 32
+18| 1020| 01
+19| 1021| 90
+20| 1022| 76
+<End HexData>
+
+
+<End Comment>
